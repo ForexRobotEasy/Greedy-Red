@@ -1,0 +1,69 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                               Greedy Red.mq5     |
+//|                                 Copyright 2022, Forex Robot Easy Team |
+//|                                          https://forexroboteasy.com |
+//+------------------------------------------------------------------+
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//|                                                                  |
+//+------------------------------------------------------------------+
+
+//+------------------------------------------------------------------+
+//| Expert initialization function                                   |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+    // Add initialization code here
+
+    return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Expert deinitialization function                                 |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // Add deinitialization code here
+}
+
+//+------------------------------------------------------------------+
+//| Expert start function                                            |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Add trading logic here
+
+    // Identify support and resistance levels using Volume Profile FR indicator
+
+    // Create trading positions based on the identified levels
+
+    // Calculate volume based on price levels for accurate identification of reversal areas
+
+    // Display volume for support and resistance levels
+
+    // Make trading decisions based on the displayed volume
+
+    // Close positions and exit when necessary
+
+    // Add stop loss and take profit levels
+
+    // Add trailing stop feature
+
+    // Add money management functionality
+
+    // Add risk management functionality
+
+    // Add trade execution and management functions
+
+    // Add error handling and logging
+
+    // Add code for position sizing
+
+    // Add code for trade entry rules
+
+    // Add code for trade exit rules
+}
+
+//+------------------------------------------------------------------+
